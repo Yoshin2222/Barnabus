@@ -22,10 +22,11 @@ ignorehitpause = 1
 
 [state Test explod]
 type = explod
-triggerall = 0;!numexplod(29875)
+triggerall = 1;!numexplod(29875)
 ;trigger1 = (var(2)&16777216) !=0
 ;trigger1 = anim = 2
-trigger1 = NUMHELPER(11001)
+;trigger1 = NUMHELPER(11001)
+trigger1 = statetype = A
 id = 29875
 anim = 29875
 pos = 120,78

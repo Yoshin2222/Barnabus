@@ -9,7 +9,7 @@ pal.defaults =1,2,3
 
 ; Files for the player
 [Files]
-cmd      = code/Barnabus.cmd
+cmd      = code/Barnabus.commands
 cns      = code/Barnabus.cns
 stcommon = common1.cns
 sprite   = files/Barnabus.sff
